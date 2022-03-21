@@ -1,6 +1,25 @@
 # Chirag Mehta - portfolio website
 
-This is my portfolio website which I created while following a tutorial from [Kevin Powell](https://www.kevinpowell.co/) on [Scrimba](https://scrimba.com/). I am currently enrolled at [The School of Code](https://www.schoolofcode.co.uk/) and am in the process of creating user stories and new wireframes to tweak or change this design.
+[Link to live deploy](https://chirag-designs-f2wb3.ondigitalocean.app/)
+
+This is my portfolio website which I created while following a tutorial from [Kevin Powell](https://www.kevinpowell.co/) on [Scrimba](https://scrimba.com/). I have recently graduated from the [School of Code](https://www.schoolofcode.co.uk/) and am in the process of redesigning this site using Gatsby and Tailwind CSS. My most recent School of Code projects are listed.
+
+## Description
+
+My portfolio describes my skills, experience and highlights a selection of projects I've created. I used HTML, CSS and Vanilla JavaScript to create this because I wanted to get a solid grounding in these fundamental web development languages.
+
+### Challenges
+
+- Styling the intro section with my photo on larger screens. Had to learn negative positioning to create the effect I designed
+- Creating a full screen menu which has offset positioning and slides over the page smoothly
+- Having the six project cards resize and react responsively on different screens
+
+### Future Plans
+
+- Plan to recreate this entire site using Gatsby and Tailwind to continue developing as a Front End Developer
+- Gatsby has in-built routing so the portfolio will become a single-page site and easier to maintain and update
+- Migrating to Gatsby and Tailwind will dramatically improve the site's performance and SEO ranking 
+- Use React Testing Library fo unit and integration tests and Cypress for end-to-end tests
 
 ## Table of contents
 
@@ -24,11 +43,6 @@ Users should be able to:
 ### Screenshot
 
 ![Screenshot of portfolio site](img/portfolio_screenshot.png)
-
-### [Links]
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
 
