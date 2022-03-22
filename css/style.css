@@ -190,6 +190,12 @@ header {
   max-width: 100px;
 }
 
+@media (min-width: 625px) {
+  .logo {
+    max-width: 150px;
+  }
+}
+
 nav {
   position: fixed;
   background: var(--colour-dark);
@@ -321,10 +327,6 @@ nav {
     min-width: 245px; /* Ensures img doesn't disappear */
     position: relative;
     z-index: 2;
-  }
-
-  #intro__project--img {
-    
   }
 
   .section__title--intro {
