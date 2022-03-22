@@ -6,7 +6,7 @@ This is my portfolio website which I created while following a tutorial from [Ke
 
 ## Table of contents
 
-- [Running Locally]
+- [Running Locally](#running-locally)
 - [Description](#description)
   - [Challenges](#challenges)
   - [Future Plans](#future-plans)
