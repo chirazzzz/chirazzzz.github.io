@@ -29,7 +29,7 @@ html {
   --fs-h3: 1.25rem;
   --fs-h4: 1.15rem;
   --fs-body: 1rem;
-  --fs-fineprint: 0.75rem;
+  --fs-fineprint: 0.9rem;
 }
 
 @media (min-width: 800px) {
@@ -79,12 +79,12 @@ a {
 
 .btn {
   display: inline-block;
-  padding: 0.6em 2.4em;
+  padding: 0.6em 2em;
   background: var(--colour-accent);
   color: var(--colour-dark);
   text-decoration: none;
   cursor: pointer;
-  font-size: 0.8rem;
+  font-size: var(--fs-body);
   font-weight: var(--fw-bold);
   text-transform: lowercase;
   letter-spacing: 1px;
@@ -190,7 +190,7 @@ header {
   max-width: 100px;
 }
 
-@media (min-width: 625px) {
+@media (min-width: 800px) {
   .logo {
     max-width: 150px;
   }
@@ -247,6 +247,33 @@ nav {
 
 .nav-toggle:focus {
   outline: none;
+}
+
+@media (min-width: 625px) {
+  .nav-toggle {
+    display: none;
+  }
+
+  .nav {
+    position: initial;
+    background: inherit;
+    color: var(--colour-dark);
+    transform: translateX(0);
+  }
+  
+  .nav__list {
+    flex-direction: row;
+    height: inherit;
+  }
+
+  .nav__link {
+    font-size: var(--fs-h3);
+    margin-left: 1em;
+  }
+
+  .nav__link-home {
+    display: none;
+  }
 }
 
 .nav-open .nav {
